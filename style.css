@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
      background-color: #3c40c6;
 }
 
@@ -8,28 +8,33 @@ body{
 
 .main{
     display: flex;
-    gap: 750px;
+    /* gap: 750px; */
+    justify-content: space-between;
+    margin: 0 70px;
    
 }
 
 .left{
-    padding: 20px 60px;
+    /* padding: 20px 60px; */
     color: aliceblue;
+    /* gap: 800px; */
 
   
 } 
 
+
 .right{
     display: flex;
     align-items: center;
-    gap: 40px;
     color: aliceblue;
+    gap: 20px;
 }
 .box{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 60px;
+    flex-wrap: wrap;
 }
 
 
@@ -40,6 +45,7 @@ body{
     color:black;
     /* border: 1px solid black; */
     box-shadow: 2px 2px 2px 1px;
+    gap: 100px;
 }
 .a{
     display: flex;
@@ -76,7 +82,8 @@ body{
 }
 .color{
     display: flex;
-    flex-direction: row;
+    /* flex-direction:column; */
+    flex-wrap: wrap;
 
 }
 .c1{
